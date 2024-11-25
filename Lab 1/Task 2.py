@@ -12,4 +12,4 @@ quantity_symbols_in_book = quantity_pages * quantity_lines * quantity_symbols
 
 quantity_books = volume / (quantity_symbols_in_book * volume_symbols)
 
-print("Количество книг, помещающихся на дискету:", round(quantity_books))
+print("Количество книг, помещающихся на дискету:", int(quantity_books))
